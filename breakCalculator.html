@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <!--Use font "Raleway"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="breakCalculator.css">
+
+    <title>Break Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <h3>Minutes:</h3>
+            <input type="text" id="mins"><br><br>
+            <button onclick="calculateBreak()">Submit</button>
+            <p id="breakTime"></p>
+        </div>
+    </div>
+
+    <script>
+        function calculateBreak() {
+            let mins = Number(document.getElementById("mins").value);
+            const breakTime = document.getElementById("breakTime");
+
+            if (mins <= 18) {
+                breakTime.innerHTML = "Break Time: 5 minutes!";
+            } else if (mins <= 24) {
+                breakTime.innerHTML = "Break Time: 8 minutes!";
+            } else if (mins <= 32) {
+                breakTime.innerHTML = "Break Time: 10 minutes!";
+            } else if (mins <= 48) {
+                breakTime.innerHTML = "Break Time: 15 minutes!";
+            } else if (mins >= 60) {
+                breakTime.innerHTML = "Break Time: 30 minutes!";
+            } else {
+                breakTime.innerHTML = "";
+            }
+        }
+    </script>
+</body>
+</html>

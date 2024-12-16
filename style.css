@@ -1,0 +1,53 @@
+html, body {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#navbar {
+    background-color: #0D1B1E;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-elem {
+    display: inline;
+    float: left;
+}
+
+.navbar-elem a {
+    font-size: 18px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+
+.navbar-elem a:hover {
+    background-color: #30BCED;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    z-index: 0;
+}
+
+h1 {
+    margin-left: 32px;
+}
+
+a {
+    margin-left: 32px;
+    color: white;
+    text-decoration: none;
+}

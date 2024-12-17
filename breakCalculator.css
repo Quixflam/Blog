@@ -14,3 +14,27 @@ html, body {
     background-color: white;
     padding: 24px 32px;
 }
+
+h3 {
+    font-size: 24px;
+}
+
+button {
+    font-family: "Raleway", serif;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 21px;
+    padding: 7.5px 15px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: ghostwhite;
+}
+
+input {
+    font-family: "Raleway", serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}

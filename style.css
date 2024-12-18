@@ -28,7 +28,7 @@ html, body {
     display: block;
     color: white;
     text-align: center;
-    padding: 12px 15px;
+    padding: 12px 12.5px;
     text-decoration: none;
 }
 
@@ -43,11 +43,11 @@ html, body {
 }
 
 h1 {
-    margin-left: 32px;
+    margin-left: 2%;
 }
 
 a {
-    margin-left: 32px;
+    margin-left: 2%;
     color: white;
     text-decoration: none;
 }
